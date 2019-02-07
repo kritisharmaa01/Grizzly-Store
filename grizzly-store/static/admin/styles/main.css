@@ -1,0 +1,11 @@
+.imgc{
+    margin-top: 75px;
+    /*margin-bottom: 100px;*/
+    margin-right: 150px;
+    margin-left: 450px;
+}
+.inputc{
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-left: 43%;
+}

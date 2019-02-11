@@ -1,81 +1,250 @@
-<html>
+<!DOCTYPE html>
+<HTML>
     <head>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Page1</title>
+        <title>
+            page2
+        </title>
         <style>
-            .head{
-                background-color: rgb(212, 206, 206);
-                height:34px;
-                padding: 10px 5px 7px 3em;
-            }
-            a:link, a:visited{
-                text-decoration: none;
-                color:black;
-            }
             table {
-                display: table;
-                border-collapse: separate;
-                border-spacing: 2px;
-                border-color: gray;
-                border:1px solid rgb(196, 190, 190);
-                padding:15px;
-                border-spacing: 5px;   
-            }
+  width: 100%;
+}
+
+
+/*td {
+  padding: 5px;
+  text-align: left;
+  height: 15px;
+  width: auto;
+  border: .5px;
+}*/
+table {
+        border-collapse: collapse;
+        margin:100px auto;
+    }
+    
+    td {
+        margin: 0px;
+        padding: 5px;
+        text-align: left;
+        border:1px solid #080808;
+    }
+    
+    .border {
+        border: 1px solid #080808;
+    }
+
+    .noborders td {
+        border:0;
+    }
+            
         </style>
     </head>
     <body>
-        <div class="head">
-                <div style="float:left">GRIZZLY <img src="./login_files/smallbear.jpg"> STORE<input type="text" placeholder="  Search" style="border-radius: 10px;"> </div><div style="float:right"><i class="fa fa-bell" aria-hidden="true"></i>
-                Welcome, Admin &lt;Name&gt;...
-                <input type="button" value="Login" style="border-radius:10px; float:right"></div> 
-        </div>
-        <br><br><br>
-        <div style="background-color:rgb(212, 206, 206); height:400px; width: 200px">
-            <div style="background-color:rgb(167, 162, 162); height:34px"><span style="float:left">&nbsp;&nbsp; PROFILE</span><span style="float:right">Edit&nbsp;&nbsp;</span></div><br>
-            <span style="height:100px; width:100px; margin-top:10%; float:center; background-color:rgb(167, 162, 162); margin-left:auto; margin-right:auto; display:block"></span>
-            <div style="text-align:center">
-                <p style="font-size:130%"><b>Helen Cho</b></p>
-                <p><b>ID</b><br>GRZLY17234</p>
-                <p><b>Designation</b><br>St.Admin</p>
-                <p><b>Office</b><br>NYC, NY, USA</p></div>
-            </div>
-        </div>
+        <ul>
+            <li><img src="./images/grizzly2.PNG" alt="lol"height="54" width="150"style="float: left;"></li>
+            <li><input type="text" style="border-radius: 10px; width: 200px;" placeholder="search"></li>            
+            <li style="float:right;"><input type="button" value="Logout" style=" border-radius: 10px;"></li>
+            <li style="float: right;"><p style="color: black; margin-right: 100px;">Welcome Admin<p></li>
+            <li style="float: right;"><img src="./images/10118-200.png" alt="lol"height="50" width="50" style=" margin-right: 100px;"></li>
+        </ul>
 
-        <div>
-            <div>
-                <span style="float:left; width:250px; height: 32px; background-color: rgb(145, 141, 141);"><b>PRODUCTS</b></span><span style="float:left; width:250px; background-color: rgb(197, 192, 192); height: 32px;">VENDORS</span>
-            </div>
-            <br><br>
-            <div style="background-color:rgb(212, 206, 206); height:320px; width:320px; float:left; display:block; text-align:left"><br>ghg
-                <div style="background-color:rgb(212, 206, 206); height:160px; width:160px; float:left; display:block; border: 2px dashed rgb(167, 162, 162); position:relative; margin-left:20%; margin-top:20%">
-                    <span><img src="images/plus3.png" style="size:50%; position:relative"></span>
+
+        <div style="float: left; margin-top: 50px;margin-left: 50px ;height: 400px; width:250px; background-color:rgb(241, 241, 241); ">
+            <div style="height:35px; width:225px ;background-color:silver;margin-top: 10px;margin-left: 13px;">
+                <div style="float:left; padding-top: 8px; padding-left: 2px;color:white;">
+                    <font size="4" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">PROFILE</font>
+                    <button style="margin-left:119px; border: none; background-color: silver;color: white;">edit</button>
                 </div>
             </div>
-            <div>
-                <table rules="rows">
-                    <tr><td><a href="xyz">Enter Product ID</a></td></tr>
-                    <tr><td><select name="Category">
-                            <option value="a">Volvo</option>
-                            <option value="b">Saab</option>
-                            <option value="c">Fiat</option>
-                            <option value="d">Audi</option>
-                    </select></td></tr>
-                    <tr><td><a href="xyz">Name</a></td></tr>
-                    <tr><td><a href="xyz">Description</a></td></tr>
-                    <tr><td><a href="xyz">Price</a></td></tr>
-                </table>
+            <div style=" margin-left:73px; margin-top: 30px;height: 100px;width: 100px;background-color: silver">     
             </div>
             
+            <table align="center" style="padding: 0px 0px;">
+                <tr align="center">
+                    <td><font size="3" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Helen Cho</font></td>    
+                </tr>
+                <tr align="center">
+                        <td><font size="2" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">ID</font></td>    
+               </tr>
+                <tr align="center">
+                            <td><font size="2" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">GRZLY17234</font></td>    
+                </tr>
+                    <tr></tr>
+                    <tr></tr>
+                <tr align="center">
+                            <td><font size="2" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Designation</font></td>    
+                </tr>
+                <tr align="center">
+                            <td><font size="2" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sr. Admin</font></td>    
+                </tr>
+                    <tr></tr>
+                    <tr></tr>
+                <tr align="center">
+                            <td><font size="2" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Office</font></td>    
+                </tr>
+                <tr align="center">
+                            <td><font size="2" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">NYC,NY,USA</font></td>    
+                </tr>    
+            </table>
+        </div>
+
+
+
+        <div style=" height:100px; width:100px;float:right; margin-top: 400px;">
+            <input type="button" value="Add" style="border-radius:10px; padding-left:15px;padding-right:15px; background-color: gray"><br><br>
+            <input type="button" value="cancel" style="border-radius:10px;">
+        </div>
+
+
+<!--div to work on-->
+        <div style="margin-right:0px;margin-top:50px;float:right; height: 400px; width: 891px;">
+            <div style="height: 40px;width: 294px;float: left;background-color: silver;padding-bottom: 5px;padding-left: 3px;color: black;">
+                <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">&nbsp;&nbsp;&nbsp;PRODUCT</p>
+            </div>
+            <div style="height: 40px;width: 297px;float: left;background-color: rgb(241, 241, 241);padding-bottom: 5px;color:silver;">
+                <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">&nbsp;&nbsp;&nbsp;VENDORS</p>
+            </div>
+            <div style="height: 40px;width: 297px;float: left; background-color: rgb(243, 236, 236);padding-bottom: 5px;">
+                    <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">&nbsp;&nbsp;&nbsp;</p>
+            </div>
+            <div>
+
+                <select type="text" placeholder="Choose Action">
+                    <option value="Choose action">Choose action</option>
+                    <option value="a">Delete</option>
+                    <option value="b">Save</option>
+                    <option value="c">Rename</option>
+                    <option value="d">Edit</option>
+                </select>
+                <input  type="search"  placeholder="Category Name">
+                <select type="text"  value="Sort by" name="Sort by">
+                    <option value="Sort by">Sort by</option>
+                    <option value="a">Name</option>
+                    <option value="b">ID</option>
+                    <option value="c">Category</option>
+                    <option value="d">Price</option>
+                </select>
+            </div>
+
+            <table border="1" >
+                <tr>
+                    <th>Product List</th>  <th>Brand</th>  <th>Category</th>  <th>Rating</th>
+                </tr>
+                <tr>
+                    <td><input type="radio" value="Trimmer"> Trimmer<br></td>
+                    <td>Philips</td>
+                    <td>Personal Care</td>
+                    <td>4.7</td>
+                    <td><button type="button">View</button><button type="button">Block</button><button type="button">Remove</button></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" value="Shaver"> Shaver<br></td>
+                    <td>Braun</td>
+                    <td>Personal Care</td>
+                    <td>4.8</td>
+                    <td><button type="button">View</button><button type="button">Block</button><button type="button">Remove</button></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" value="Macbook Pro"> Macbook Pro<br></td>
+                    <td>Apple</td>
+                    <td>Laptops</td>
+                    <td>4.9</td>
+                    <td><button type="button">View</button><button type="button">Block</button><button type="button">Remove</button></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" value="iMac 27"> iMac 27<br></td>
+                    <td>Apple</td>
+                    <td>Laptops</td>
+                    <td>4.6</td>
+                    <td><button type="button">View</button><button type="button">Block</button><button type="button">Remove</button></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" value="Micron Pens"> Micron Pens<br></td>
+                    <td>Sakura Pigma</td>
+                    <td>Art Supplies</td>
+                    <td>4.1</td>
+                    <td><button type="button">View</button><button type="button">Block</button><button type="button">Remove</button></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" value="Paint Markers"> Paint Markers<br></td>
+                    <td>Copic</td>
+                    <td>Art Supplies</td>
+                    <td>4.2</td>
+                    <td><button type="button">View</button><button type="button">Block</button><button type="button">Remove</button></td>
+                </tr>
+            </table>
+
+
+           
+            <!--<hr style="width:296px; float:left; margin-top:0px;">
+
+            <div style="float:left;height:280px; width:320px; background-color: rgb(241, 241, 241);">
+                <div style="float: left;margin-top:60px; margin-left: 80px;height:150px; width:150px; border: 4px; border-style: dashed; border-color: silver"></div>
+            </div>
             
+            <div style="float: right;height: 280px; width:250px; margin-right: 22px;">
+                <input type="text" name="" id="" placeholder="Enter Product ID"style="color:silver;height:30px;width:270px;border-right: none; border-left: none;border-top: none;"><br>
+                <select style="height:30px;width:270px;border-right: none; border-left: none;border-top: none;">
+                    <option style="color:silver;">Value</option>
+                </select>
+                <input type="text" name="" id="" placeholder="Name"style="color:silver;height:30px;width:270px;border-right: none; border-left: none;border-top: none;"><br>
+                <input type="text" name="" id="" placeholder="Description"style="color:silver;height:30px;width:270px;border-right: none; border-left: none;border-top: none;"><br>
+                <input type="text" name="" id="" placeholder="Price"style="color:silver;height:30px;width:270px;border-right: none; border-left: none;border-top: none;"><br>
+            </div>
 
-        </div> <br>udj
-        <div style="background-color:rgb(212, 206, 206); height:36px; width:36px; float:left; display:block; text-align:center; ">2</div>    
-        <div style="background-color:rgb(212, 206, 206); height:36px; width:36px; float:left; display:block; text-align:center; ">3</div>
-        <div style="background-color:rgb(212, 206, 206); height:36px; width:36px; float:left; display:block; text-align:center; ">4</div>
-        <div style="background-color:rgb(212, 206, 206); height:36px; width:36px; float:left; display:block; text-align:center; ">5</div>
+            <div style="float: left;">
+                <div style="float:left; height:40px; width:40px; background-color: rgb(241, 241, 241); margin-top:10px;"><p>&nbsp;&nbsp;1</p></div>
+                <div style="float:left; height:40px; width:40px; background-color: rgb(241, 241, 241); margin-top:10px; margin-left:8px;"><p>&nbsp;&nbsp;2</p></div>
+                <div style="float:left; height:40px; width:40px; background-color: rgb(241, 241, 241); margin-top:10px; margin-left:8px;"><p>&nbsp;&nbsp;3</p></div>
+                <div style="float:left; height:40px; width:40px; background-color: rgb(241, 241, 241); margin-top:10px; margin-left:8px;"><p>&nbsp;&nbsp;4</p></div>
+            </div>-->
 
-        <input type="button" value="CANCEL" style="background-color:rgb(212, 206, 206); float:right"><br>
-        <input type="button" value="ADD" style="background-color:rgb(129, 126, 126); width:80px; float:right" >
+        </div>
         
+        <style>
+            hr
+            {
+                border:2px solid gray;
+            }
+            li input
+            {   
+                padding: 3px 16px;
+                margin-top: 12px;
+                margin-left: 3px;
+                margin-right: 10px;
+            }
+            ul 
+            {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color:rgb(241, 241, 241);         
+            }
+            li 
+            {
+                float: left;
+                color: white;
+                text-align:unset;
+                padding: 0px; 
+                         
+            }
+            li a 
+            {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover 
+            {
+                background-color: rgb(241, 236, 236);
+            }
+            .active 
+            {
+                background-color: #4CAF50;
+            }
+        </style>
     </body>
-</html>
+</HTML>
